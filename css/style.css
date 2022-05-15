@@ -1,0 +1,289 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.clear{
+	clear: both;
+}
+.left{
+	float: left;
+}
+
+
+div.container{
+	margin:  0 auto;
+	width: 1280px;
+} 
+
+section.sessao1{
+	margin-top: 60px;
+	
+}
+
+
+
+div.text_image{
+	margin: 8px 0;
+	display: block;
+	text-align: center;
+}
+
+div.text_image img.text1{
+	height: 25px;
+}
+
+div.text_image img.text2{
+	height: 15px;
+}
+
+div.w3{
+	display: block;
+}
+
+
+
+div.w1{
+	width: 33%;
+	float: left;
+}
+
+
+div.left{
+	text-align: right;
+	display: block;
+}
+
+div.center{
+	text-align: center;
+}
+
+img.img_globo{
+	
+	letter-spacing: 20px;
+	margin-top: 70px;
+	width: 325px;
+}
+
+
+
+div.lingua_artigos{
+	display: inline-block;
+	text-align: center;
+	margin-top: px;
+	margin-bottom: 15px;
+
+}
+
+div.lingua_artigos a{
+	color: #3366CC;
+	font-weight: bold;
+	text-decoration-line: none;
+	
+
+}
+
+div.lingua_artigos p{
+	font-size: 13px;
+	display: inline-block;
+}
+
+div.left div .lingua_artigos.d1{
+	margin-top: 20px;
+	margin-right: -120px;
+}
+
+div.left div .lingua_artigos.d2{
+	margin-top: 10px;
+	margin-right: -65px;
+}
+
+div.left div .lingua_artigos.d3{
+	margin-top: 10px;
+	margin-right: -55px;
+}
+
+div.left div .lingua_artigos.d4{
+	margin-top: 10px;
+	margin-right: -65px;
+}
+
+div.left div .lingua_artigos.d5{
+	margin-top: 10px;
+	margin-right: -120px;
+}
+
+div.right div .lingua_artigos.d1{
+	margin-top: 20px;
+	margin-left: -120px;
+}
+
+div.right div .lingua_artigos.d2{
+	margin-top: 10px;
+	margin-left: -65px;
+}
+
+div.right div .lingua_artigos.d3{
+	margin-top: 10px;
+	margin-left: -55px;
+}
+
+div.right div .lingua_artigos.d4{
+	margin-top: 10px;
+	margin-left: -65px;
+}
+
+div.right div .lingua_artigos.d5{
+	margin-top: 10px;
+	margin-left: -120px;
+}
+
+div.pesquisar{
+	text-align: center;
+	margin: 20px auto;
+	width: 460px;
+	height: 45px;
+	outline: 1px solid #C0C0C0;
+	margin-bottom: 30px;
+
+
+}
+
+input.input_pesquisar{
+	height: 45px;
+	width: 350px;
+	border: 2px solid white;
+
+}
+
+input.input_pesquisar:hover, input.input_pesquisar:focus{
+	outline: 2px solid white;
+
+}
+
+
+select.select_pesquisar{
+	width: 50px;
+	height: 45px;
+	border: 2px solid white;
+	cursor: pointer;
+	color: #808080;
+
+}
+
+
+select.select_pesquisar:hover, select.select_pesquisar:focus{
+	outline: 2px solid white;
+
+}
+
+
+button.button_pesquisar{
+	width: 60px;
+	height: 45px;
+	border-radius: 0;
+	background-color: #3366CC;
+	border: 2px solid #3366CC;
+	cursor: pointer;	
+	color: white;
+	font-size: 15px;
+}
+
+div.lingua{
+	width: 480px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+select.lingua{
+
+	font-size: 15px;
+	font-weight: bold;
+	color:  #3366CC;;
+	width: 300px;
+	height: 35px;
+	text-align: center;
+	border:  0;
+	outline: 1px solid #C0C0C0;
+	background-color: #F3F6F9;
+	margin: 0px;
+}
+
+div.espaco{
+	width: 15px;
+	height: 1px;
+	background-color: white;
+}
+
+div.lingua div.linha{
+	background-color: #ccc;
+	width: 75px;
+	height: 1px;
+	margin-top: 20px;
+	padding-right: 10px;
+
+}
+
+div.linha{
+	background-color: #ccc;
+	width: 98%;
+	height: 1px;
+	margin: 25px 0;
+	margin-bottom: 35px;
+}
+
+section.sessao2 > div{
+	width: 25%;
+	font-size: 15px;
+	
+}
+
+section.sessao2 > div > div{
+	text-align: left;
+	padding: 20px;
+	color: rgb(50,50,50);
+}
+
+section.sessao2 > div > div a{
+	color: #3366CC;
+	text-decoration-line: none;
+}
+
+section.sessao2 > div.sub_container1 > div:nth-child(2) a{
+	font-weight: bold;
+	color: #3366CC;
+	text-decoration-line: none;
+}
+
+section.sessao2 > div:nth-child(n+2) div{
+
+	margin-left: 40px;
+
+}
+
+section.sessao2 > div.sub_container2 > div:nth-child(1) a{
+	display: block;
+	margin-bottom: 5px;
+}
+
+div.linha.footer{
+	margin-bottom: 0px;
+}
+
+footer > div{
+	font-size: 15px;
+	text-align: center;
+	padding:  30px;
+}
+
+footer > div a{
+	color: #3366CC;
+	text-decoration-line: none;
+}
+
+footer i{
+	font-size: 5px;
+	margin-top: -5px;
+	padding: 10px;
+}
